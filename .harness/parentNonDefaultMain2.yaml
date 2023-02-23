@@ -1,0 +1,16 @@
+pipeline:
+  name: parentNonDefaultMain2
+  identifier: parentNonDefaultMain2
+  projectIdentifier: pro
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: child
+        identifier: child
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: childNonDefault
+          project: pro
