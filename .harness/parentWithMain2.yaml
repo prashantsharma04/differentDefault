@@ -14,3 +14,5 @@ pipeline:
           org: default
           pipeline: childMain2
           project: pro
+          outputs: []
+        tags: {}
