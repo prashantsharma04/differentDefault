@@ -1,0 +1,18 @@
+inputSet:
+  name: input1
+  identifier: input1
+  orgIdentifier: default
+  projectIdentifier: pro
+  pipeline:
+    identifier: childNonMain
+    stages:
+      - stage:
+          identifier: custom
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 53s
